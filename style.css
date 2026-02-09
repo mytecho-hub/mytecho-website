@@ -25,14 +25,19 @@ a:hover{ text-decoration:underline; }
   background: rgba(11,15,20,.55);
   border-bottom:1px solid rgba(35,49,66,.6);
   z-index:10;
+  padding-top:12px;
+  padding-bottom:12px;
+
 }
 .logo-img{
-  height:44px;
+  height:72px;      /* was 44 */
   width:auto;
-  border-radius:10px;
+  display:block;
 }
 
-.brand{ display:flex; gap:12px; align-items:center; }
+
+.brand{ display:flex; gap:16px; align-items:center; }
+
 .logo{
   width:44px; height:44px; border-radius:14px;
   display:grid; place-items:center;
