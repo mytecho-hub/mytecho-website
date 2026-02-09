@@ -26,6 +26,11 @@ a:hover{ text-decoration:underline; }
   border-bottom:1px solid rgba(35,49,66,.6);
   z-index:10;
 }
+.logo-img{
+  height:44px;
+  width:auto;
+  border-radius:10px;
+}
 
 .brand{ display:flex; gap:12px; align-items:center; }
 .logo{
