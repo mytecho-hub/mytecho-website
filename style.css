@@ -32,11 +32,10 @@ a:hover{ text-decoration:underline; }
   z-index:10;
 
 .logo-img{
-  height:170px;      /* BIGGER */
+  height:140px;
   width:auto;
   display:block;
 }
-
 .brand{ display:flex; gap:24px; align-items:center; }
 
 .logo{
@@ -133,6 +132,6 @@ input:focus, textarea:focus{ border-color: rgba(34,193,255,.9); }
 
 @media (max-width: 860px){
   .logo-img{
-    height:110px;    /* bigger on mobile too */
+    height:90px;
   }
 }
