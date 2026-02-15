@@ -101,19 +101,42 @@
       </section>
       <section id="contact" class="section">
         <h2>Contact</h2>
-        <div class="card">
-          <p> Email: <a href="mailto:mark.saul@mytecho.net.au">mark.saul@mytecho.net.au</a><br>
-            Phone: <a href="tel:0422547337">0422 547 337</a> </p>
-          <form class="form" onsubmit="return openEmailDraft(event)">
-            <div class="row"> <label> Your name <input id="name"
-                  required=""> </label> <label> Your email <input
-                  id="email" required="" type="email"> </label> </div>
-            <label> What do you need help with? <textarea id="message" rows="5" required="" placeholder="Briefly describe the issue..."></textarea>
-            </label> <button class="btn" type="submit">Create email</button>
-            <p class="muted tiny"> This button opens your email client
-              with a pre-filled message (no backend required). </p>
-          </form>
-        </div>
+       <div class="card contact-card">
+  <div class="contact-details">
+    <a class="contact-pill" href="mailto:mark.saul@mytecho.net.au">
+      ✉️ mark.saul@mytecho.net.au
+    </a>
+    <a class="contact-pill" href="tel:+61422547337">
+      📞 0422 547 337
+    </a>
+  </div>
+
+  <form class="form" onsubmit="return openEmailDraft(event)">
+    <div class="row">
+      <label>
+        <span>Your name</span>
+        <input id="name" required />
+      </label>
+
+      <label>
+        <span>Your email</span>
+        <input id="email" type="email" required />
+      </label>
+    </div>
+
+    <label>
+      <span>What do you need help with?</span>
+      <textarea id="message" rows="5" required placeholder="Briefly describe the issue..."></textarea>
+    </label>
+
+    <div class="form-actions">
+      <button class="btn" type="submit">Create email</button>
+      <p class="muted tiny">
+        Opens your email client with a pre-filled message (no backend required).
+      </p>
+    </div>
+  </form>
+</div>
       </section>
     </main>
     <footer class="wrap footer"> <small>© <span id="year"></span>

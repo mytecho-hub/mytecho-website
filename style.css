@@ -112,6 +112,48 @@ a:hover{ text-decoration:underline; }
   gap:14px;
 }
 
+.contact-card{
+  display:grid;
+  gap:16px;
+}
+
+.contact-details{
+  display:flex;
+  gap:12px;
+  flex-wrap:wrap;
+  align-items:center;
+}
+
+.contact-pill{
+  display:inline-flex;
+  gap:8px;
+  align-items:center;
+  padding:10px 12px;
+  border-radius:999px;
+  border:1px solid rgba(35,49,66,.85);
+  background: rgba(11,15,20,.45);
+  color: var(--text);
+  text-decoration:none;
+}
+
+.contact-pill:hover{
+  text-decoration:none;
+  border-color: rgba(34,193,255,.7);
+}
+
+label span{
+  display:block;
+}
+
+.form-actions{
+  display:flex;
+  gap:12px;
+  align-items:center;
+  flex-wrap:wrap;
+}
+
+
+
 .form{ display:grid; gap:12px; margin-top:10px; }
 .row{ display:grid; grid-template-columns: 1fr 1fr; gap:12px; }
 label{ display:grid; gap:6px; color:var(--muted); font-size:14px; }
