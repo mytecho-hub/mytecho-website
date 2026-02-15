@@ -31,13 +31,11 @@ a:hover{ text-decoration:underline; }
   border-bottom:1px solid rgba(35,49,66,.6);
   z-index:10;
 
-}
 .logo-img{
-  height:110px;      /* was 44 */
+  height:170px;      /* BIGGER */
   width:auto;
   display:block;
 }
-
 
 .brand{ display:flex; gap:24px; align-items:center; }
 
@@ -135,6 +133,6 @@ input:focus, textarea:focus{ border-color: rgba(34,193,255,.9); }
 
 @media (max-width: 860px){
   .logo-img{
-    height:70px;
+    height:110px;    /* bigger on mobile too */
   }
 }
