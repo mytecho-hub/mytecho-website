@@ -23,7 +23,7 @@ a:hover{ text-decoration:underline; }
    display:flex;
   align-items:center;
   justify-content:space-between;
-  padding:20px 24px;   /* increase vertical space */
+  padding:14px 24px;   /* increase vertical space */
   position:sticky;
   top:0;
   backdrop-filter: blur(10px);
@@ -36,7 +36,8 @@ a:hover{ text-decoration:underline; }
   width:auto;
   display:block;
 }
-.brand{ display:flex; gap:24px; align-items:center; }
+.brand{ display:flex; gap:24px; align-items:flex-end; }
+
 
 .logo{
   width:44px; height:44px; border-radius:14px;
@@ -46,6 +47,12 @@ a:hover{ text-decoration:underline; }
   box-shadow: var(--shadow);
   font-weight:800;
 }
+
+.logo-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+
 .name{ font-weight:800; letter-spacing:.5px; text-transform:lowercase; font-size:18px; }
 .tagline{ color:var(--muted); font-size:13px; margin-top:2px; }
 
